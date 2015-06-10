@@ -3,6 +3,8 @@ Starting point for a RestWS feature
 
 Blog post: [https://echo.co/blog/getting-started-backbone-js-and-restws-drupal-7](https://echo.co/blog/getting-started-backbone-js-and-restws-drupal-7)
 
+Read more about the RESTful Web Services module: [https://www.drupal.org/project/restws](https://www.drupal.org/project/restws)
+
 # install
 
 Clone the repo into your site's modules directory. Then download backbone and
