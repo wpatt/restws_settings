@@ -1,0 +1,8 @@
+name = RestWS Settings
+description = Settings for RestWS and REST related 3rd party libraries
+core = 7.x
+package = Features
+dependencies[] = jquery_update
+dependencies[] = libraries
+dependencies[] = restws
+features[features_api][] = api:2

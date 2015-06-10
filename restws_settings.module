@@ -1,0 +1,41 @@
+<?php
+/**
+ * @file
+ * Drupal needs this blank file.
+ */
+
+
+/**
+ * Implements hook_libraries_info().
+ */
+function restws_settings_libraries_info() {
+
+  $libraries['underscore'] = array(
+    'name' => 'Underscore.js',
+    'vendor url' => 'http://underscorejs.org',
+    'download url' => 'http://underscorejs.org',
+    'version' => '1.8.3',
+    'files' => array(
+      'js' => array(
+        'underscore-min.js',
+      ),
+    ),
+  );
+
+  $libraries['backbone'] = array(
+    'name' => 'Backbone.js',
+    'vendor url' => 'http://backbonejs.org',
+    'download url' => 'http://backbonejs.org',
+    'version' => '1.2.1',
+    'files' => array(
+      'js' => array(
+        'backbone-min.js',
+      ),
+    ),
+    'dependencies' => array(
+      'underscore',
+    ),
+  );
+
+  return $libraries;
+}
